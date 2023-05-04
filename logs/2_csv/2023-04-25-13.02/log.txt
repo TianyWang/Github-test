@@ -1,0 +1,13 @@
+[Tue Apr 25 13:02:43 2023|phase2train.py|INFO] The experimental settings are: 
+{'data_path': './datasets', 'train_filename': '02.csv', 'input_len': 144, 'output_len': 288, 'label_len': 72, 'start_col': 3, 'capacity': 134, 'patient': 5, 'day_len': 144, 'train_size': 155, 'val_size': 80, 'aug_p': 0.9, 'is_debug': True, 'checkpoints': './train/2_csv', 'logs_path': './logs/2_csv', 'num_workers': 5, 'train_epochs': 15, 'batch_size': 128, 'log_per_steps': 100, 'lr': 0.0001, 'lr_adjust': 'type1', 'gpu': 0, 'name': 'Filter_MSE_Loss', 'pred_file': 'predict.py', 'framework': 'paddlepaddle', 'pretrain_model': 'pretrain_checkpoints/model', 'use_gpu': True}
+[Tue Apr 25 13:02:43 2023|phase2train.py|INFO] 
+>>>>>>>Start training 
+
+[Tue Apr 25 13:03:21 2023|phase2train.py|INFO] Step 100 Train MSE-Loss: 0.17735775 RMSE-Loss: 0.42113864
+[Tue Apr 25 13:03:55 2023|phase2train.py|INFO] Step 200 Train MSE-Loss: 0.15899643 RMSE-Loss: 0.39874357
+[Tue Apr 25 13:04:31 2023|phase2train.py|INFO] Step 300 Train MSE-Loss: 0.13872951 RMSE-Loss: 0.37246412
+[Tue Apr 25 13:05:10 2023|phase2train.py|INFO] Step 400 Train MSE-Loss: 0.115846895 RMSE-Loss: 0.34036288
+[Tue Apr 25 13:05:43 2023|phase2train.py|INFO] Valid {'farm_mae': 4702.3623, 'farm_rmse': 5754.121, 'turb_score': 5228.24169921875, 'loss': 0.116762064}
+[Tue Apr 25 13:05:43 2023|phase2train.py|INFO] the best model's score is:5228.24169921875
+[Tue Apr 25 13:05:55 2023|phase2train.py|INFO] Step 500 Train MSE-Loss: 0.10147396 RMSE-Loss: 0.31854978
+[Tue Apr 25 13:06:33 2023|phase2train.py|INFO] Step 600 Train MSE-Loss: 0.0830795 RMSE-Loss: 0.28823516

@@ -1,0 +1,5 @@
+[Sat Apr 15 20:17:32 2023|train.py|INFO] The experimental settings are: 
+{'data_path': './datasets', 'train_filename': None, 'input_len': 144, 'output_len': 288, 'label_len': 72, 'start_col': 3, 'capacity': 134, 'patient': 5, 'day_len': 144, 'train_size': 155, 'val_size': 80, 'aug_p': 0.9, 'is_debug': True, 'checkpoints': './checkpoints', 'logs_path': './logs', 'num_workers': 5, 'train_epochs': 15, 'batch_size': 32, 'log_per_steps': 100, 'lr': 0.0001, 'lr_adjust': 'type1', 'gpu': 0, 'name': 'Filter_MSE_Loss', 'pred_file': 'predict.py', 'framework': 'paddlepaddle', 'use_gpu': True}
+[Sat Apr 15 20:17:32 2023|train.py|INFO] 
+>>>>>>>Start training 
+

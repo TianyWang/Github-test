@@ -1,0 +1,26 @@
+[Sun Apr 16 08:43:40 2023|train.py|INFO] The experimental settings are: 
+{'data_path': './datasets', 'train_filename': None, 'input_len': 144, 'output_len': 288, 'label_len': 72, 'start_col': 3, 'capacity': 134, 'patient': 5, 'day_len': 144, 'train_size': 155, 'val_size': 80, 'aug_p': 0.9, 'is_debug': True, 'checkpoints': './checkpoints', 'logs_path': './logs', 'num_workers': 5, 'train_epochs': 15, 'batch_size': 32, 'log_per_steps': 100, 'lr': 0.0001, 'lr_adjust': 'type1', 'gpu': 0, 'name': 'Filter_MSE_Loss', 'pred_file': 'predict.py', 'framework': 'paddlepaddle', 'use_gpu': True}
+[Sun Apr 16 08:43:40 2023|train.py|INFO] 
+>>>>>>>Start training 
+
+[Sun Apr 16 08:43:54 2023|train.py|INFO] Step 100 Train MSE-Loss: 3039029400000.0 RMSE-Loss: 1743281.2
+[Sun Apr 16 08:44:01 2023|train.py|INFO] Step 200 Train MSE-Loss: 75264460000.0 RMSE-Loss: 274343.7
+[Sun Apr 16 08:44:10 2023|train.py|INFO] Step 300 Train MSE-Loss: 93802090000.0 RMSE-Loss: 306271.25
+[Sun Apr 16 08:44:17 2023|train.py|INFO] Step 400 Train MSE-Loss: 93138936000.0 RMSE-Loss: 305186.72
+[Sun Apr 16 08:44:25 2023|train.py|INFO] Step 500 Train MSE-Loss: 81772620000.0 RMSE-Loss: 285959.12
+[Sun Apr 16 08:44:33 2023|train.py|INFO] Step 600 Train MSE-Loss: 92111710000.0 RMSE-Loss: 303499.1
+[Sun Apr 16 08:44:41 2023|train.py|INFO] Step 700 Train MSE-Loss: 89037670000.0 RMSE-Loss: 298391.8
+[Sun Apr 16 08:44:48 2023|train.py|INFO] Step 800 Train MSE-Loss: 115525800000.0 RMSE-Loss: 339890.88
+[Sun Apr 16 08:44:56 2023|train.py|INFO] Step 900 Train MSE-Loss: 50249680000.0 RMSE-Loss: 224164.4
+[Sun Apr 16 08:45:04 2023|train.py|INFO] Step 1000 Train MSE-Loss: 65254646000.0 RMSE-Loss: 255449.89
+[Sun Apr 16 08:45:12 2023|train.py|INFO] Step 1100 Train MSE-Loss: 105535290000.0 RMSE-Loss: 324861.97
+[Sun Apr 16 08:45:19 2023|train.py|INFO] Step 1200 Train MSE-Loss: 52641620000.0 RMSE-Loss: 229437.61
+[Sun Apr 16 08:45:27 2023|train.py|INFO] Step 1300 Train MSE-Loss: 40838996000.0 RMSE-Loss: 202086.61
+[Sun Apr 16 08:45:35 2023|train.py|INFO] Step 1400 Train MSE-Loss: 81257770000.0 RMSE-Loss: 285057.47
+[Sun Apr 16 08:45:43 2023|train.py|INFO] Step 1500 Train MSE-Loss: 29559415000.0 RMSE-Loss: 171928.52
+[Sun Apr 16 08:45:50 2023|train.py|INFO] Step 1600 Train MSE-Loss: 33350758000.0 RMSE-Loss: 182621.9
+[Sun Apr 16 08:45:58 2023|train.py|INFO] Step 1700 Train MSE-Loss: 49734720000.0 RMSE-Loss: 223012.83
+[Sun Apr 16 08:46:06 2023|train.py|INFO] Step 1800 Train MSE-Loss: 38858113000.0 RMSE-Loss: 197124.61
+[Sun Apr 16 08:46:13 2023|train.py|INFO] Step 1900 Train MSE-Loss: 62557848000.0 RMSE-Loss: 250115.67
+[Sun Apr 16 08:46:21 2023|train.py|INFO] Step 2000 Train MSE-Loss: 35216530000.0 RMSE-Loss: 187660.69
+[Sun Apr 16 08:46:29 2023|train.py|INFO] Step 2100 Train MSE-Loss: 23433419000.0 RMSE-Loss: 153079.78
